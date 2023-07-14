@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Market</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="market.css">
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 60px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
+  </style>
+</head>
+
+<body>
+    <header id="full_nav">
+        <div class="header">
+          <div>
+            <nav class="navbar navbar-expand-lg fixed">
+              <a class="navbar-brand" href="home.html">
+                <img src="images/logo1.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+    
+              <div class="collapse navbar-collapse " id="main-nav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" href="market.html">Market</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="ipo.html">IPO</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="sector.html">Sector</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+  <!-- Swiper -->
+  <h3 style="color: #0078ff;margin-top: 4rem;margin-left: 1.5rem;">BSE Indexes</h3>
+  <p style="font-size: 2rem;margin-left: 1.5rem;">Track most followed BSE indices</p>
+  <div class="swiper mySwiper" style="height: 40%;margin-top: 1rem;">
+    <div class="swiper-button-next" style="color:#0078ff"></div>
+    <div class="swiper-button-prev" style="color: #0078ff"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">SENSEX</p>
+          <small class="p2">S&P BSE SENSEX</small>
+          <p style="margin-top: 2rem;"><b>57257.1</b><span style="color: red; " class="p3"> -398.118(-0.69%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">SNXT50</p>
+          <small class="p2">S&P BSE SENSEX NEXT 50</small>
+          <p style="margin-top: 2rem;"><b>45441.58</b><span style="color: red; " class="p3"> -475.62(-1.04%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">BANKEX</p>
+          <small class="p2">S&P BSE BANKEX</small>
+          <p style="margin-top: 2rem;"><b>44692.1</b><span style="color: red; " class="p3"> -215.01(-0.48%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">BSE CD</p>
+          <small class="p2">S&P BSE CONSUMER DURABLES</small>
+          <p style="margin-top: 2rem;"><b>37591.57</b><span style="color: red; " class="p3"> -398.118(-1.03%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">BSE CG</p>
+          <small class="p2">S&P BSE CAPITAL GOODS</small>
+          <p style="margin-top: 2rem;"><b>33932.14.1</b><span style="color: red; " class="p3"> -457.16(-1.21%)</span>
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">MIDCAP</p>
+          <small class="p2">S&P BSE MID CAP</small>
+          <p style="margin-top: 2rem;"><b>23633.56.1</b><span style="color: red; " class="p3"> -299.46(-1.25%)</span>
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">SENSEX</p>
+          <small class="p2">S&P BSE SENSEX</small>
+          <p style="margin-top: 2rem;"><b>24206.26</b><span style="color:rgb(8, 237, 8); " class="p3">
+              8.44(+0.03%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">SMLCAP</p>
+          <small class="p2">S&P BSE SMALL CAP</small>
+          <p style="margin-top: 2rem;"><b>26767.00</b><span style="color: red; " class="p3"> -375.93(-1.37%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">BSE IT</p>
+          <small class="p2">S&P BSE INFORMAION TECHNOLOGY</small>
+          <p style="margin-top: 2rem;"><b>27791.4</b><span style="color: red; " class="p3"> -29.59(-0.11%)</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <h3 style="color: #0078ff;margin-top: 4rem;margin-left: 1.5rem;">NSE Indexes</h3>
+  <p style="font-size: 2rem;margin-left: 1.5rem;">Track most followed NSE indices</p>
+  <div class="swiper mySwiper" style="height: 40%;">
+    <div class="swiper-button-next" style="color:#0078ff"></div>
+    <div class="swiper-button-prev" style="color:#0078ff"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYGMCG</p>
+          <small class="p2">NIFTY FMCG</small>
+          <p style="margin-top: 2rem;"><b>45060</b><span style="color: red; " class="p3"> -207.45(-0.46%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">BANKNIFTY</p>
+          <small class="p2">NIFTY BANK</small>
+          <p style="margin-top: 2rem;"><b>39395.5</b><span style="color: red; " class="p3"> -221.5(-0.56%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYJR</p>
+          <small class="p2">NIFTY NEXT 50</small>
+          <p style="margin-top: 2rem;"><b>37528.55</b><span style="color: red; " class="p3"> -290.00(-0.77%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYMIDCAP</p>
+          <small class="p2">NIFTY MIDCAP 100</small>
+          <p style="margin-top: 2rem;"><b>29565.45</b><span style="color: red; " class="p3"> -351.25(-1.17%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYMCG</p>
+          <small class="p2">NIFTY FMCG</small>
+          <p style="margin-top: 2rem;"><b>45060</b><span style="color: red; " class="p3"> -207.45(-0.46%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">BANKNIFTY</p>
+          <small class="p2">NIFTY BANK</small>
+          <p style="margin-top: 2rem;"><b>39395.35</b><span style="color: red; " class="p3"> -221.55(-0.56%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYJR</p>
+          <small class="p2">NIFTY NEXT 50</small>
+          <p style="margin-top: 2rem;"><b>37528.55</b><span style="color: red; " class="p3"> -290(-0.77%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYMIDCAP</p>
+          <small class="p2">NIFTY MIDCAP 100</small>
+          <p style="margin-top: 2rem;"><b>29565.45</b><span style="color: red; " class="p3"> -351.25(-1.17%)</span></p>
+        </div>
+      </div>
+      <div class="swiper-slide" style="height:15rem;">
+        <div>
+          <p class="p1">NIFTYIT</p>
+          <small class="p2">NIFTY IT</small>
+          <p style="margin-top: 2rem;"><b>27935.65</b><span style="color: red; " class="p3"> -63.60(-0.23%)</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <section class="mover">
+    <h2>Market Movers</h2>
+    <p style="font-size: 2rem;">Learn about Stock market updates today - Peek into Gainers, Losers, 52 Week Highs, 52
+      week Lows and more.</p>
+    <div class="row" style="margin-top: 5rem;">
+      <div class="col-sm-6">
+        <div class="card" style="border-radius: 15px;">
+          <div class="card-body">
+            <div class="card-title d-flex">
+              <h5 style="margin: 1rem ;font-size:2.5rem;"><i class="far fa-calendar-alt"></i>52 Week High/Low</h5>
+              <ul class="nav nav-pills mb-3" style="margin-left: 40%;" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-52high-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-52high" type="button" role="tab" aria-controls="pills-52high"
+                    aria-selected="true">High</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-52low-tab" data-bs-toggle="pill" data-bs-target="#pills-52low"
+                    type="button" role="tab" aria-controls="pills-52low" aria-selected="false">Low</button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-content" style="margin: 2rem;" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-52high" role="tabpanel"
+                aria-labelledby="pills-52high-tab">
+
+                <table class="table" style="margin-top: 4rem;">
+                  <tr class="thead">
+                    <th scope="col">COMPANY</th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">PRICE <p>Rs.</p>
+                    </th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">DAY HIGH <p>Rs.</p>
+                    </th>
+                  </tr>
+                  <tbody class="tbody">
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+              <div class="tab-pane fade" id="pills-52low" role="tabpanel" aria-labelledby="pills-52low-tab">
+
+                <table class="table" style="margin-top: 4rem;">
+                  <tr class="thead">
+                    <th scope="col">COMPANY</th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">PRICE <p>Rs.</p>
+                    </th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">DAY LOW <p>Rs.</p>
+                    </th>
+                  </tr>
+                  <tbody class="tbody">
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td>130</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td>140.50</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- ---- -->
+      <!-- gainer-loser -->
+      <div class="col-sm-6">
+        <div class="card" style="border-radius: 15px;">
+          <div class="card-body">
+            <div class="card-title d-flex">
+              <h5 style="margin: 1rem ;font-size:2.5rem;"><i class="fas fa-sort"></i>Today's Gainer / Loser</h5>
+              <ul class="nav nav-pills mb-3" style="margin-left: 30%;" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-gainer-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-gainer" type="button" role="tab" aria-controls="pills-gainer"
+                    aria-selected="true">Gainer</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-loser-tab" data-bs-toggle="pill" data-bs-target="#pills-loser"
+                    type="button" role="tab" aria-controls="pills-loser" aria-selected="false">Loser</button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-content" style="margin: 2rem;" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-gainer" role="tabpanel"
+                aria-labelledby="pills-gainer-tab">
+
+                <table class="table" style="margin-top: 4rem;">
+                  <tr class="thead">
+                    <th scope="col">COMPANY</th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">PRICE <p>Rs.</p>
+                    </th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">CHANGE <p>%</p>
+                    </th>
+                  </tr>
+                  <tbody class="tbody">
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td> <span class="green">+19.33%</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td> <span class="green">+19.50%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="green">+18.33%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td> <span class="green">+18.20%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td> <span class="green">+18.00%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="green">+17.33%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="green">+17.01%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td> <span class="green">+15.12%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td> <span class="green">+10.12%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="green">+20.35%</span> </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+              <div class="tab-pane fade" id="pills-loser" role="tabpanel" aria-labelledby="pills-loser-tab">
+                <table class="table" style="margin-top: 4rem;">
+                  <tr class="thead">
+                    <th scope="col">COMPANY</th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">PRICE <p>Rs.</p>
+                    </th>
+                    <th scope="col" style="text-align: end; padding-right: 3rem;">CHANGE <p>%</p>
+                    </th>
+                  </tr>
+                  <tbody class="tbody">
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td> <span class="red">-19.33%</span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td> <span class="red">-19.50%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="red">-18.33%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td> <span class="red">-18.20%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td> <span class="red">-18.00%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="red">-17.33%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="red">-17.01%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani Gas</th>
+                      <td>122</td>
+                      <td> <span class="red">-15.12%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Adani port</th>
+                      <td>122</td>
+                      <td> <span class="red">-10.12%</span> </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ITC</th>
+                      <td>133</td>
+                      <td> <span class="red">-20.35%</span> </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+    });
+  </script>
+  <section class="footer">
+    <div class="row no-gutter">
+      <div class="col-md-3">
+        <h6>
+          The best stock screening, equity research and company analysis tool built by a passionate team of investors at
+          Comp®. Intelligent Stock picking Starts here.
+        </h6>
+      </div>
+      <div class="col-md-9">
+        <div class="row no-gutter" style="padding-left: 50rem;">
+
+          <div class="col-md-4">
+            <h5>TRADING VIEW</h5>
+            <a href="#">How To Use</a>
+            <a href="#">Bundles</a>
+            <a href="#">terms</a>
+            <h5>Follow Us:</h5>
+            <a class="a" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="a" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="a" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
